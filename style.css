@@ -1,0 +1,425 @@
+
+
+/*---------------------------------------------Botão------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+  
+  .container {
+    width: 400px;
+    height: 400px;
+    margin-left: 240px;
+    margin-top: -150px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+  }
+  
+  .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    border-radius: 10px;
+    margin-left: 30px;
+ 
+  }
+
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+    border-radius: 10px;
+    margin-left: 30px;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;    
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+    border-radius: 10px;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    border-radius: 10px;
+  }
+
+
+/*---------------------------------------------Botão------------------------------------------------*/
+
+
+
+
+/*---------------------------------------------Box1------------------------------------------------*/
+body{
+   background-color: gray;
+   display: flexbox;
+}
+
+.box{
+    width: 550px;
+    height: 160px;
+    background-color: #027794;
+    margin-left: -10px;
+    margin-top: 300px;
+    padding: 20px;
+    border: solid 1px rgb(255, 255, 255);
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+/*---------------------------------------------Box1------------------------------------------------*/
+
+
+
+/*---------------------------------------------TEXTO------------------------------------------------*/
+  h2{
+    color: white;
+    margin-top: 5px;
+  }
+  h3{
+    color: #707070;
+  }
+  h4{
+    text-align: left;
+    margin-right: 25px;
+    color: white;
+
+  }
+
+  p{
+    color: rgb(189, 189, 189);
+    text-align: left;
+    margin-bottom: 5px;
+    margin-right: 18px;
+  }
+
+  .text1{
+    margin-top: 30px;
+  }
+  
+  .text2{
+    margin-top: 50px;
+  }
+  .consultoria{
+    margin-top: 60px;
+  }
+
+  .precos{
+    text-align: center;
+    margin-right: -150px;
+    margin-top: 50px;
+
+  }
+
+  /*---------------------------------------------TEXTO------------------------------------------------*/
+
+
+  /*---------------------------------------------Box2------------------------------------------------*/
+
+
+  .box2{
+    width: 550px;
+    height: 1200px;
+    background-color: #252525;
+    margin-left: -10px;
+    margin-top: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+
+  img{
+    border-radius: 15px;
+  }
+
+/*---------------------------------------------Box2------------------------------------------------*/
+
+/*---------------------------------------------Box3------------------------------------------------*/
+
+.box3{
+    width: 550px;
+    height: 700px;
+    background-color: #027794;
+    margin-left: -10px;
+    margin-top: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .resultados{
+    border-bottom: solid 1px white;
+  }
+
+/*---------------------------------------------Box3------------------------------------------------*/
+
+/*---------------------------------------------Box4------------------------------------------------*/
+
+.box4{
+    width: 550px;
+    height: 300px;
+    background-color: #252525;
+    margin-left: -10px;
+    margin-top: 120px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+/*---------------------------------------------Box4------------------------------------------------*/
+
+
+/*---------------------------------------------Box5------------------------------------------------*/
+
+.box5{
+    width: 550px;
+    height: 100px;
+    background-color: #027794;
+    margin-left: -10px;
+    margin-bottom: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+/*---------------------------------------------Box5------------------------------------------------*/
+
+
+
+.boxPrecos1{
+    width: 150px;
+    height: 100px;
+    background-color: #555555;
+    margin-left: -10px;
+    margin-bottom: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 70px;
+    border-radius: 15px;
+}
+
+.boxPrecos2{
+  width: 150px;
+  height: 100px;
+  background-color: #555555;
+  margin-left: -10px;
+  margin-bottom: 60px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center; 
+  margin-top: -160px;
+  margin-left: 310px;
+  border-radius: 15px;
+
+}
+
+.boxPrecos3{
+  width: 150px;
+  height: 135px;
+  background-color: #555555;
+  margin-left: -10px;
+  margin-bottom: 60px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 180px;
+  border-radius: 15px;
+
+}
+
+.boxPrecos4{
+  width: 150px;
+  height: 150px;
+  background-color: #555555;
+  margin-left: -10px;
+  margin-bottom: 60px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 70px;
+  border-radius: 15px;
+
+}
+
+.boxPrecos5{
+  width: 150px;
+  height: 150px;
+  background-color: #555555;
+  margin-left: -10px;
+  margin-bottom: 60px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: -210px;
+  margin-left: 310px;
+  border-radius: 15px;
+
+}
+
+.boxPrecos6{
+  width: 150px;
+  height: 100px;
+  background-color: #555555;
+  margin-left: -10px;
+  margin-bottom: 60px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 70px;
+  border-radius: 15px;
+}
+
+.boxPrecos7{
+  width: 150px;
+  height: 100px;
+  background-color: #555555;
+  margin-left: -10px;
+  margin-bottom: 60px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 70px;
+  border-radius: 15px;
+  margin-top: -160px;
+  margin-left: 310px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1740px){
+
+/*------------------------------------------------BOTÃO------------------------------------------------------------*/
+
+  .btn{
+    margin-left: 700px;
+  }
+
+
+/*------------------------------------------------BOTÃO------------------------------------------------------------*/
+
+
+
+/*------------------------------------------BOX DESKTOP-----------------------------------------------------------*/
+
+  .box{
+    width: 1900px;
+    height: 160px;
+    background-color: #027794;
+    margin-left: -10px;
+    margin-top: 300px;
+    padding: 20px;
+    border: solid 1px rgb(255, 255, 255);
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  
+  .box2{
+    width: 1900px;
+    height: 1200px;
+    background-color: #252525;
+    margin-left: -10px;
+    margin-top: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .box3{
+    width: 1900px;
+    height: 700px;
+    background-color: #027794;
+    margin-left: -10px;
+    margin-top: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .box4{
+    width: 1900px;
+    height: 300px;
+    background-color: #252525;
+    margin-left: -10px;
+    margin-top: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .box5{
+    width: 1900px;
+    height: 100px;
+    background-color: #027794;
+    margin-left: -10px;
+    margin-bottom: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+/*------------------------------------------BOX DESKTOP-----------------------------------------------------------*/
+
+/*---------------------------------------------TEXTO--------------------------------------------------------------*/
+
+  h2{
+    margin-bottom: 50px;
+  }
+
+  h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  h4{
+    margin-right: 550px;
+    margin-left: 550px;
+  }
+
+  P{
+  margin-left: 550px;
+  margin-right: 550px;
+  }
+
+/*---------------------------------------------TEXTO--------------------------------------------------------------*/
+
+
+
+}
+
