@@ -336,6 +336,14 @@ body{
 @media (min-width: 1740px){
 
 
+  body{
+    background-image: url(WhatsApp\ Image\ 2023-09-06\ at\ 14.21.14.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 1600px;
+  }
+
 
 /*------------------------------------------------BOTÃO------------------------------------------------------------*/
 
