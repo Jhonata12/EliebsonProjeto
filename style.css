@@ -200,6 +200,29 @@ body{
     display: flex;
   }
 
+  .wrapper{
+    margin-top: 110px;
+  }
+
+.face{
+  width: 26px;  
+  margin-top: 15px;
+  margin-left: -130px;
+}
+
+.insta{
+  width: 27px; 
+  margin-left: 15px; 
+}
+
+.yout{
+  width: 28px;
+  margin-left: 15px; 
+
+}
+
+
+
 /*---------------------------------------------Box4------------------------------------------------*/
 
 
@@ -210,6 +233,7 @@ body{
     height: 100px;
     background-color: #027794;
     margin-left: -10px;
+    margin-top: -5px;
     margin-bottom: 60px;
     padding: 20px;
     box-sizing: border-box;
