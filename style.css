@@ -1,9 +1,10 @@
 
 body{
   background-image: url(WhatsApp\ Image\ 2023-09-06\ at\ 14.21.14.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
 }
 
 /*---------------------------------------------Botão------------------------------------------------*/
@@ -40,7 +41,8 @@ body{
     transition: 1s ease-in-out;
     border-radius: 10px;
     margin-left: 35px;
-    margin-top: 60px;
+    margin-top: 30px;
+    background-color: #7070709d;
   } 
 
   svg {
@@ -54,7 +56,7 @@ body{
     transition: 1s ease-in-out;
     border-radius: 10px;
     margin-left: 35px;
-    margin-top: 60px;
+    margin-top: 30px;
   }
   
   .btn:hover {
@@ -151,7 +153,7 @@ body{
 
   .box2{
     width: 560px;
-    height: 1200px;
+    height: 1150px;
     background-color: #252525;
     margin-left: -10px;
     margin-top: 100px;
@@ -167,6 +169,9 @@ body{
 
 /*---------------------------------------------Box2------------------------------------------------*/
 
+
+
+
 /*---------------------------------------------Box3------------------------------------------------*/
 
 .box3{
@@ -176,6 +181,7 @@ body{
     margin-left: -10px;
     margin-top: 100px;
     padding: 20px;
+    border: solid 1px rgb(255, 255, 255);
     box-sizing: border-box;
     text-align: center;
   }
@@ -236,9 +242,43 @@ body{
     margin-top: -5px;
     margin-bottom: 60px;
     padding: 20px;
+    border: solid 1px rgb(255, 255, 255);
     box-sizing: border-box;
     text-align: center;
     display: flex;
+
+  }
+
+
+  .caixa{
+
+    width: auto;
+    height: 460px;
+    background-color: #027794;
+    margin: 4rem, auto,0,auto;
+    margin-left: 5px;
+    margin-top: 50px;
+    display: flex;
+    overflow-x: auto;
+    border-radius: 25px;
+
+  }
+
+  img{
+    width: 270px;
+  }
+
+  .img2{
+    width: 350px;
+    height: 280px;
+    margin: 40px;
+    margin-right: 200px;
+    scale: 1.05;
+  }
+
+  .imgg{
+    width: 500px;
+    height: 380px;
   }
 
 /*---------------------------------------------Box5------------------------------------------------*/
@@ -248,111 +288,37 @@ body{
 .boxPrecos1{
     width: 150px;
     height: 100px;
-    background-color: #555555;
-    margin-left: -10px;
-    margin-bottom: 60px;
     padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-    margin-top: 70px;
-    margin-left: 70px;
+    margin-top: -200px;
     border-radius: 15px;
+    scale: 1.62;
+    margin-left: -50px;
+
 }
 
 .boxPrecos2{
   width: 150px;
   height: 100px;
-  background-color: #555555;
-  margin-left: -10px;
-  margin-bottom: 60px;
+  margin-left: 195px;
+  margin-right: -500px;
+  margin-top: -100px;
   padding: 20px;
-  box-sizing: border-box;
-  text-align: center; 
-  margin-top: -160px;
-  margin-left: 310px;
   border-radius: 15px;
+  scale: 1.32;
 
 }
 
 .boxPrecos3{
   width: 150px;
   height: 135px;
-  background-color: #555555;
-  margin-left: -10px;
-  margin-bottom: 60px;
   padding: 20px;
-  box-sizing: border-box;
-  text-align: center;
-  margin-left: 180px;
   border-radius: 15px;
+  margin-left: 65px;
+  margin-top: 100px;
+  margin-bottom: 530px;
+  scale: 1.60;
 
 }
-
-.boxPrecos4{
-  width: 150px;
-  height: 150px;
-  background-color: #555555;
-  margin-left: -10px;
-  margin-bottom: 60px;
-  padding: 20px;
-  box-sizing: border-box;
-  text-align: center;
-  margin-left: 70px;
-  border-radius: 15px;
-
-}
-
-.boxPrecos5{
-  width: 150px;
-  height: 150px;
-  background-color: #555555;
-  margin-left: -10px;
-  margin-bottom: 60px;
-  padding: 20px;
-  box-sizing: border-box;
-  text-align: center;
-  margin-top: -210px;
-  margin-left: 310px;
-  border-radius: 15px;
-
-}
-
-.boxPrecos6{
-  width: 150px;
-  height: 100px;
-  background-color: #555555;
-  margin-left: -10px;
-  margin-bottom: 60px;
-  padding: 20px;
-  box-sizing: border-box;
-  text-align: center;
-  margin-top: 70px;
-  margin-left: 70px;
-  border-radius: 15px;
-}
-
-.boxPrecos7{
-  width: 150px;
-  height: 100px;
-  background-color: #555555;
-  margin-left: -10px;
-  margin-bottom: 60px;
-  padding: 20px;
-  box-sizing: border-box;
-  text-align: center;
-  margin-top: 70px;
-  margin-left: 70px;
-  border-radius: 15px;
-  margin-top: -160px;
-  margin-left: 310px;
-}
-
-
-
-
-
-
-
 
 
 @media (min-width: 1740px){
@@ -454,7 +420,28 @@ body{
 
 /*---------------------------------------------TEXTO--------------------------------------------------------------*/
 
-
-
 }
 
+
+/*---------------------------------------------BARRA DE ROLAGEM--------------------------------------------------------------*/
+
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb{
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  background: linear-gradient(#003c4b,#027794);
+  border: 2px solid #252525;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  border-color: rgb(88, 88, 88);
+}
+
+/*---------------------------------------------BARRA DE ROLAGEM-------------------------------------------------------------*/
