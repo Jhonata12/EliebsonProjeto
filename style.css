@@ -445,3 +445,16 @@ body{
 }
 
 /*---------------------------------------------BARRA DE ROLAGEM-------------------------------------------------------------*/
+
+
+.planoss{
+  width: 560px;
+  height: 80px;
+  background-color: #027794;
+  margin-left: -10px;
+  margin-top: 100px;
+  padding: 20px;
+  border: solid 1px rgb(255, 255, 255);
+  box-sizing: border-box;
+  text-align: center;
+}
