@@ -5,6 +5,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+
 }
 
 /*---------------------------------------------Botão------------------------------------------------*/
@@ -325,107 +326,6 @@ body{
 }
 
 
-@media (min-width: 1740px){
-
-
- 
-/*------------------------------------------------BOTÃO------------------------------------------------------------*/
-
-  .btn{
-    margin-left: 700px;
-  }
-
-
-/*------------------------------------------------BOTÃO------------------------------------------------------------*/
-
-
-
-/*------------------------------------------BOX DESKTOP-----------------------------------------------------------*/
-
-  .box{
-    width: 1900px;
-    height: 160px;
-    background-color: #027794;
-    margin-left: -10px;
-    margin-top: 300px;
-    padding: 20px;
-    border: solid 1px rgb(255, 255, 255);
-    box-sizing: border-box;
-    text-align: center;
-  }
-
-  
-  .box2{
-    width: 1900px;
-    height: 1200px;
-    background-color: #252525;
-    margin-left: -10px;
-    margin-top: 100px;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-  }
-
-  .box3{
-    width: 1900px;
-    height: 700px;
-    background-color: #027794;
-    margin-left: -10px;
-    margin-top: 100px;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-  }
-
-  .box4{
-    width: 1900px;
-    height: 300px;
-    background-color: #252525;
-    margin-left: -10px;
-    margin-top: 60px;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-  }
-
-  .box5{
-    width: 1900px;
-    height: 100px;
-    background-color: #027794;
-    margin-left: -10px;
-    margin-bottom: 60px;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-  }
-
-/*------------------------------------------BOX DESKTOP-----------------------------------------------------------*/
-
-/*---------------------------------------------TEXTO--------------------------------------------------------------*/
-
-  h2{
-    margin-bottom: 50px;
-  }
-
-  h3{
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-
-  h4{
-    margin-right: 550px;
-    margin-left: 550px;
-  }
-
-  P{
-  margin-left: 550px;
-  margin-right: 550px;
-  }
-
-/*---------------------------------------------TEXTO--------------------------------------------------------------*/
-
-}
-
 
 /*---------------------------------------------BARRA DE ROLAGEM--------------------------------------------------------------*/
 
@@ -462,3 +362,142 @@ body{
   box-sizing: border-box;
   text-align: center;
 }
+
+
+
+
+
+@media (min-width: 650px){
+
+    body{
+      overflow-x: hidden;
+    }
+ 
+  
+    .btn{
+      margin-left: 550px;
+    }
+  
+  
+  
+    .box{
+      width: 1600px;
+      height: 160px;
+      background-color: #027794;
+      margin-left: -10px;
+      margin-top: 300px;
+      padding: 20px;
+      border: solid 1px rgb(255, 255, 255);
+      box-sizing: border-box;
+      text-align: center;
+    }
+  
+    
+    .box2{
+      width: 1600px;
+      height: 1300px;
+      background-color: #252525;
+      margin-left: -10px;
+      margin-top: 100px;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  
+    .box3{
+      width: 1600px;
+      height: 700px;
+      background-color: #027794;
+      margin-left: -10px;
+      margin-top: 100px;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  
+    .box4{
+      width: 1600px;
+      height: 300px;
+      background-color: #252525;
+      margin-left: -10px;
+      margin-top: 60px;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  
+    .box5{
+      width: 1600px;
+      height: 100px;
+      background-color: #027794;
+      margin-left: -10px;
+      margin-bottom: 60px;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  
+/*------------------------------------------BOX DESKTOP-----------------------------------------------------------*/
+  
+
+  
+    h2{
+      margin-bottom: 50px;
+      
+    }
+  
+    h3{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  
+    h4{
+      margin-right: 550px;
+      margin-left: 550px;
+    }
+  
+    P{
+    margin-left: 550px;
+    margin-right: 550px;
+    }
+
+
+    .text1{
+      margin-left: 500px;
+    }
+
+    svg{
+      margin-left: 550px;
+    }
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+    .planoss{
+      width: 1600px;
+    }
+
+    .boxPrecos1{
+      scale: 3.00;
+      margin-top: -250px;
+      margin-left: 150px;
+    }
+
+    .boxPrecos2{
+      scale: 2.55;
+      margin-top: -75px;
+      margin-left: 900px;
+    }
+
+    .boxPrecos3{
+      scale: 2.50;
+      margin-top: 350px;
+      margin-left: 545px;
+      margin-bottom: 900px;
+    }
+
+  /*---------------------------------------------------------------------------------------------------------------------------*/
+
+  }
+
+
+
