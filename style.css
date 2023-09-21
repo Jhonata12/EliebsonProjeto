@@ -43,7 +43,7 @@ body{
     border-radius: 10px;
     margin-left: 35px;
     margin-top: 30px;
-    background-color: #7070709d;
+    background-color: #6969699d;
   } 
 
   svg {
@@ -62,7 +62,7 @@ body{
   
   .btn:hover {
     transition: 1s ease-in-out;
-    background: #2389ee;    
+    background: #0388a6;    
   }
   
   .btn:hover svg {
@@ -88,7 +88,7 @@ body{
 .box{
     width: 560px;
     height: 160px;
-    background-color: #027794;
+    background-color: #5c8ba7;
     margin-left: -10px;
     margin-top: 300px;
     padding: 20px;
@@ -159,7 +159,7 @@ body{
   .box2{
     width: 560px;
     height: 1200px;
-    background-color: #252525;
+    background-color: #000000;
     margin-left: -10px;
     margin-top: 100px;
     padding: 20px;
@@ -182,7 +182,7 @@ body{
 .box3{
     width: 560px;
     height: 700px;
-    background-color: #027794;
+    background-color: #5c8ba7;
     margin-left: -10px;
     margin-top: 100px;
     padding: 20px;
@@ -202,7 +202,7 @@ body{
 .box4{
     width: 560px;
     height: 300px;
-    background-color: #252525;
+    background-color: #000000;
     margin-left: -10px;
     margin-top: 120px;
     padding: 20px;
@@ -211,14 +211,22 @@ body{
     display: flex;
   }
 
+  .logo{
+    width: 120px;
+    scale: 0.80;
+    margin-top: -120px;
+    margin-left: 150px;
+  }
+
   .wrapper{
     margin-top: 110px;
+    margin-left: -110px;
   }
 
 .face{
   width: 26px;  
   margin-top: 15px;
-  margin-left: -130px;
+  margin-left: -100px;
 }
 
 .insta{
@@ -241,8 +249,8 @@ body{
 
 .box5{
     width: 560px;
-    height: 100px;
-    background-color: #027794;
+    height: 10px;
+    background-color: #5c8ba7;
     margin-left: -10px;
     margin-top: -5px;
     margin-bottom: 60px;
@@ -259,7 +267,7 @@ body{
 
     width: auto;
     height: 460px;
-    background-color: #027794;
+    background-color: #5c8ba7;
     margin: 4rem, auto,0,auto;
     margin-left: 5px;
     margin-top: 50px;
@@ -285,6 +293,7 @@ body{
     width: 500px;
     height: 380px;
   }
+
 
 /*---------------------------------------------Box5------------------------------------------------*/
 
@@ -340,8 +349,8 @@ body{
 ::-webkit-scrollbar-thumb{
   -webkit-border-radius: 12px;
   border-radius: 12px;
-  background: linear-gradient(#003c4b,#027794);
-  border: 2px solid #252525;
+  background: linear-gradient(#39596b,#5c8ba7);
+  border: 1px solid #002c41;
 }
 
 ::-webkit-scrollbar-thumb:hover{
@@ -354,7 +363,7 @@ body{
 .planoss{
   width: 560px;
   height: 80px;
-  background-color: #027794;
+  background-color: #5c8ba7;
   margin-left: -10px;
   margin-top: 100px;
   padding: 20px;
@@ -367,7 +376,7 @@ body{
 
 
 
-@media (min-width: 650px){
+@media (min-width: 650px) and (max-width: 1749px){
 
     body{
       overflow-x: hidden;
@@ -383,7 +392,6 @@ body{
     .box{
       width: 1600px;
       height: 160px;
-      background-color: #027794;
       margin-left: -10px;
       margin-top: 300px;
       padding: 20px;
@@ -396,7 +404,6 @@ body{
     .box2{
       width: 1600px;
       height: 1300px;
-      background-color: #252525;
       margin-left: -10px;
       margin-top: 100px;
       padding: 20px;
@@ -407,7 +414,6 @@ body{
     .box3{
       width: 1600px;
       height: 700px;
-      background-color: #027794;
       margin-left: -10px;
       margin-top: 100px;
       padding: 20px;
@@ -418,7 +424,6 @@ body{
     .box4{
       width: 1600px;
       height: 300px;
-      background-color: #252525;
       margin-left: -10px;
       margin-top: 60px;
       padding: 20px;
@@ -428,13 +433,22 @@ body{
   
     .box5{
       width: 1600px;
-      height: 100px;
-      background-color: #027794;
+      height: 10px;
       margin-left: -10px;
       margin-bottom: 60px;
       padding: 20px;
       box-sizing: border-box;
       text-align: center;
+    }
+
+    .logo{
+      margin-left: 650px;
+    }
+    .carousel{
+      margin-left: -515px;
+    }
+    .face{
+      margin-left: -80px;
     }
   
 /*------------------------------------------BOX DESKTOP-----------------------------------------------------------*/
@@ -501,3 +515,140 @@ body{
 
 
 
+
+@media (min-width: 1750px) and (max-width: 2000px){
+
+    body{
+      overflow-x: hidden;
+    }
+ 
+  
+    .btn{
+      margin-left: 750px;
+    }
+  
+  
+  
+    .box{
+      width: 2000px;
+      height: 160px;
+      margin-left: -10px;
+      margin-top: 300px;
+      padding: 20px;
+      border: solid 1px rgb(255, 255, 255);
+      box-sizing: border-box;
+      text-align: center;
+    }
+  
+    
+    .box2{
+      width: 2000px;
+      height: 1300px;
+      margin-left: -10px;
+      margin-top: 100px;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  
+    .box3{
+      width: 2000px;
+      height: 700px;
+      margin-left: -10px;
+      margin-top: 100px;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  
+    .box4{
+      width: 2000px;
+      height: 300px;
+      margin-left: -10px;
+      margin-top: 60px;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  
+    .box5{
+      width: 2000px;
+      height: 10px;
+      margin-left: -10px;
+      margin-bottom: 60px;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .logo{
+      margin-left: 850px;
+    }
+    .carousel{
+      margin-left: -515px;
+    }
+    .face{
+      margin-left: -130px;
+    }
+  
+/*------------------------------------------BOX DESKTOP-----------------------------------------------------------*/
+  
+
+  
+    h2{
+      margin-bottom: 50px;
+      
+    }
+  
+    h3{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  
+    h4{
+      margin-right: 550px;
+      margin-left: 550px;
+    }
+  
+    P{
+    margin-left: 550px;
+    margin-right: 550px;
+    }
+
+
+    .text1{
+      margin-left: 680px;
+    }
+
+    svg{
+      margin-left: 750px;
+    }
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+    .planoss{
+      width: 2000px;
+    }
+
+    .boxPrecos1{
+      scale: 3.00;
+      margin-top: -250px;
+      margin-left: 350px;
+    }
+
+    .boxPrecos2{
+      scale: 2.55;
+      margin-top: -75px;
+      margin-left: 1100px;
+    }
+
+    .boxPrecos3{
+      scale: 2.50;
+      margin-top: 350px;
+      margin-left: 750px;
+      margin-bottom: 900px;
+    }
+
+  /*---------------------------------------------------------------------------------------------------------------------------*/
+
+  }
